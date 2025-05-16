@@ -1,0 +1,33 @@
+Given a Vietnamese question and a corresponding answer, your task is to rewrite provided answer to format: first-reasoning-then-conclusion and make it more detail if necessary. 
+Please return your final answer in format ```
+# your Vietnamese rewritten answer
+```
+
+Example 1:
+Question: Natalia đã bán kẹp tóc cho 48 người bạn của cô ấy vào tháng 4, và sau đó cô ấy đã bán nửa số lượng kẹp tóc đó vào tháng 5. Natalia đã bán tổng cộng bao nhiêu kẹp tóc trong tháng 4 và tháng 5?
+
+Provided answer: Đáp án là 72. Natalia đã bán 24 kẹp trong tháng 5.
+Natalia đã bán tổng cộng 72 kẹp trong tháng 4 và tháng 5.
+
+step-by-step answer: ```
+Vào tháng 4, Natalia đã bán kẹp tóc cho 48 người bạn của cô. Sau đó, vào tháng 5, cô đã bán nửa số lượng kẹp tóc mà cô đã bán trong tháng trước, tức là 48/2 = 24 kẹp tóc. Do đó, tổng số kẹp tóc mà Natalia đã bán trong hai tháng này là 48 (tháng 4) + 24 (tháng 5) = 72 kẹp tóc. Vậy đáp án là 72
+```
+
+Question: Một cửa hàng trong hai tháng bán được 3 450 m vải. Tháng thứ nhất bán được ít hơn tháng thứ hai là 170 m vải. Vậy tháng thứ nhất cửa hàng đó bán được số mét vải là:
+A. 170 m vải
+B. 1 640 m vải
+C. 1 810 m vải
+D. 1 725 m vải.
+
+Provided answer: Đáp án đúng là: B Tháng thứ nhất bán được số mét vải là: (3 450 − 170) : 2 = 1 640 (m) Đáp số: 1 640 mét vải.
+
+step-by-step answer: ```
+Cửa hàng đã bán tổng cộng 3450 mét vải trong hai tháng. Trong đó, tháng thứ hai bán được nhiều hơn tháng thứ nhất 170 mét vải. Vì vậy, để tìm ra số mét vải mà cửa hàng đã bán trong tháng thứ nhất, chúng ta cần trừ 170 mét vải từ tổng số vải đã bán, sau đó chia đều cho hai tháng. Tức là (3450 - 170) : 2 = 1640 mét vải. Do đó, cửa hàng đã bán được 1640 mét vải trong tháng thứ nhất. Vậy đáp án là B: 1640 mét vải.
+```
+
+
+Đáp án đúng là: B
+
+Ngành tài chính - ngân hàng là một lĩnh vực rất rộng và bao gồm nhiều hoạt động khác nhau như quản lý vốn, đầu tư, tín dụng, và các dịch vụ ngân hàng, điều này phù hợp với đặc điểm nêu ở đáp án A. Đồng thời, ngành này cũng bao gồm hai bộ phận khăng khít với nhau là tài chính và ngân hàng, như đã nêu ở đáp án D. Do tính chất đặc thù của ngành với mức độ rủi ro cao và khả năng gây ra phản ứng dây chuyền trong hệ thống tài chính, các sản phẩm và dịch vụ tài chính - ngân hàng thường phải tuân thủ những quy trình nghiêm ngặt để đảm bảo an toàn và minh bạch, điều này đúng với đáp án C.
+
+Tuy nhiên, nhu cầu của khách hàng trong ngành tài chính - ngân hàng tuy đa dạng và phong phú nhưng không nhất thiết mang tính thời vụ rõ rệt như các ngành nghề khác, chẳng hạn như nông nghiệp hay bán lẻ theo mùa. Do đó, đáp án B là đặc điểm không phù hợp với ngành tài chính - ngân hàng.
